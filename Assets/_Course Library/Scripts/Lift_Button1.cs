@@ -5,7 +5,7 @@ using UnityEngine;
 public class Lift_Button1 : MonoBehaviour
 {
     public GameObject platform;
-    public float platformSpeed = 2f;
+    public float platformSpeed = .2f;
     public XRButton upButton;
 
     // Start is called before the first frame update

@@ -398,9 +398,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0836766043ebd44795f2e0efa76aada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: {fileID: 0}
-  platformSpeed: 2
-  upButton: {fileID: 0}
+  platform: {fileID: 346171256}
+  platformSpeed: 0.2
+  upButton: {fileID: 234548016}
 --- !u!1 &346171256
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +513,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!1 &368645649
 GameObject:
   m_ObjectHideFlags: 0
