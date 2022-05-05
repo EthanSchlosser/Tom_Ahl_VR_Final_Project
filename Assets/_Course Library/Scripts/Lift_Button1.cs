@@ -28,3 +28,26 @@ public class Lift_Button1 : MonoBehaviour
         Debug.Log("You pushed the Button!");
     }
 }
+
+
+public class Lift_Button2 : MonoBehaviour
+{
+    public GameObject platform;
+    public float platformSpeed = .2f;
+    public XRButton downButton;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (downButton.isHovered)
+        {
+            platform.transform.Translate(Vector3.down * Time.deltaTime * platformSpeed, Space.World);
+        }
+    }
+}
